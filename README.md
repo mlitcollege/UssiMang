@@ -9,7 +9,11 @@
 ### Kasutatud materjalid ja inspiratsiooniallikad
 
 http://i200.itcollege.ee/
+
 https://www.youtube.com/watch?v=FLkOX4Eez6o&list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG
+
 https://www.youtube.com/watch?v=GdUSoCoz2_o
+
 https://www.youtube.com/watch?v=nK6l1uVlunc
+
 http://enos.itcollege.ee/~jpoial/java
