@@ -207,7 +207,7 @@ public class UssiMang extends Application {
 		
 		primaryStage.setScene(stseen);
 		primaryStage.setTitle("U S S I M Ä N G");
-		stseen.setFill(Color.LIGHTBLUE);
+		stseen.setFill(Color.LIGHTCYAN);
 		primaryStage.show();
 		alustaMangu();
 		
