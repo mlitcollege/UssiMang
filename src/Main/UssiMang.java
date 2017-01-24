@@ -79,7 +79,7 @@ public class UssiMang extends Application {
 			if (eemaldadaSaba) 
 				uss.add(0, ussiPea); 
 		
-			// Uss läbi raami
+			// Uss läbi aknaraami
 			if (ussiPea.getTranslateX() < 0) {
 				ussiPea.setTranslateX(aknaLaius - ruuduSuurus);
 			}
@@ -99,7 +99,7 @@ public class UssiMang extends Application {
 			
 			for (Node ruut : uss) {  
 				if(ruut != ussiPea && ussiPea.getTranslateX() == ruut.getTranslateX() && ussiPea.getTranslateY() == ruut.getTranslateY()) {
-					restartGame(); 
+					manguRestart(); 
 					break;
 				}
 			}
@@ -127,7 +127,7 @@ public class UssiMang extends Application {
 	}
 	
 	
-	private void restartGame () { 
+	private void manguRestart () { 
 		lopetaMang();
 		alustaMangu();
 		
@@ -141,12 +141,12 @@ public class UssiMang extends Application {
 		animatsioon.play();
 		
 	}
-	
 	private void lopetaMang() {
 		animatsioon.stop(); 
 		uss.clear(); 
 		
 	}
+	
 	
 	
 	public static void main(String[] args) {
